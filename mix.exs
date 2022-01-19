@@ -1,7 +1,7 @@
 defmodule ExCoverallsUtils.MixProject do
   use Mix.Project
 
-  @repo_url "https://github.com/Two-Front/excoveralls_utils"
+  @repo_url "https://github.com/thebugcatcher/excoveralls_utils"
   @version "0.0.1"
   @elixir "~> 1.12"
 
@@ -45,7 +45,7 @@ defmodule ExCoverallsUtils.MixProject do
       {:dialyxir, "~> 1.1.0", only: ~w[dev test]a, runtime: false},
       {:excoveralls, "~> 0.14.2", only: ~w[dev test]a},
       {:ex_doc, "~> 0.25.5", only: :dev, runtime: false},
-      {:faker, "~> 0.16.0", only: ~w[dev test]a},
+      {:faker, "~> 0.16.0", only: ~w[dev test]a}
     ]
   end
 
@@ -55,8 +55,7 @@ defmodule ExCoverallsUtils.MixProject do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md", "priv"],
-      organization: "two_front",
-      licenses: ["Two Front"],
+      licenses: ["MIT"],
       links: %{
         "GitHub" => @repo_url
       }
