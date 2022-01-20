@@ -3,6 +3,7 @@
     "_build/",
     "deps/",
     "test/",
+    "lib/mix/tasks/",
     "config/"
   ],
   "coverage_options": {
