@@ -55,6 +55,7 @@ defmodule ExCoverallsUtils.MixProject do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md", "priv"],
+      description: "Utilities for ExCoveralls",
       licenses: ["MIT"],
       links: %{
         "GitHub" => @repo_url
