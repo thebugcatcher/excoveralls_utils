@@ -33,3 +33,6 @@ priv/plts/*
 /temp/
 
 .envrc
+
+
+magic_comments_gitignored.ex
