@@ -1,4 +1,6 @@
 defmodule X do
+  @moduledoc false
+
   def fun, do: IO.puts("Hello World")
 
   # Other comments

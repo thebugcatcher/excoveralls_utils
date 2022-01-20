@@ -14,7 +14,7 @@ defmodule ExCoverallsUtils.FileUtilsTest do
 
       path = "./test/examples/file_utils_test"
 
-      assert FileUtils.ls_r!(path) == expected_result
+      assert Enum.sort(FileUtils.ls_r!(path)) == Enum.sort(expected_result)
     end
 
     test "returns empty list if invalid file path" do

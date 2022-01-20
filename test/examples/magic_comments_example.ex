@@ -1,4 +1,6 @@
 defmodule X do
+  @moduledoc false
+
   # coveralls-ignore-start @due_date: 2021-12-31
   def fun, do: IO.puts("Hello World")
   # coveralls-ignore-end
